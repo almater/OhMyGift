@@ -1,0 +1,143 @@
+body {
+    padding 0;
+    margin: 0 auto;
+    margin-top: -20px;
+    background-image: url(images/page1/bg.png); 
+    background-repeat: repeat-x;
+    background-color: #8DC4B7;
+    float: left;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  	/*
+  	background-image: url(images/content_gift.png);
+  	background-position: bottom right;
+  	background-repeat: no-repeat;
+ 	height: 515px;
+	*/
+}
+p{
+    overflow:hidden;
+}
+.header_container{
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+    clear: left;
+    float: left;
+    z-index: 1000;
+    min-width: 760px;
+}
+.header_container .title{
+	position: relative;
+    width: 30%;
+    margin-top: 40px;
+    margin-left: auto;
+    float: left;
+}
+.header_container .title .titleTextImg{
+	float: right;
+    margin-top: 10px;
+}
+
+.header_container .title .myProfileImg{
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin-right: 10px;
+}
+
+.header_container .time{
+	position: relative;
+    width:200px;
+    margin-top: 40px;
+    margin-left: 40px; 
+    float: right;
+}
+
+.header_container .ohMyGiftButton {
+   width: 300px;
+   float:left;
+ 
+}
+
+.header_container .ohMyGiftButton img {
+    border: none;
+}
+
+.header_container .friendButton .friendButtonContent {
+ 	float: left;
+}
+.header_container .time #countdown{
+    background-image: url(images/page3/time_remain2.png);
+    background-repeat: no-repeat;
+    height:47px;
+    padding-left:32px;
+    padding-top:15px;
+    
+}
+.header_container .time .epiclock{
+    font-size: 13px;
+    padding-left: -1px;
+}
+.header_container .time .epiclock-digit{
+    margin-right: 0px;
+}
+.middle_container{
+    width: 100%;
+    float:left;
+    margin-left: auto;
+    margin-top: 0px;
+}
+
+
+.footer_container{
+	width:100%;
+    margin: 0 auto;
+	height:56px !important;
+    float: left;
+}
+ .inner_footer{
+    margin: 0 auto;
+	width: 760px;
+	height:56px;
+    margin-top: 15px;
+}
+ .inner_footer .progress{
+    width:40%;
+    height:56px;
+    float:left;
+    margin: 0 auto;
+    margin-left: 50px;
+}
+.inner_footer .progress .progress_pic{
+	width:20%;
+    width:56px;
+	height:56px;
+    float:left;
+    margin-right: 10px;
+}	
+
+.inner_footer .progress .progress_bar{
+	width:60%;
+	height:56px;
+	float: left;
+}
+.inner_footer .button{
+    width: 40%;
+    height:56px;
+    float:left;
+    margin-left: 100px;
+}
+.inner_footer .button .help{
+	width:119px;
+	height:41px;
+	float:left;
+	margin-right: 10px;
+}
+.inner_footer .button .writing{	
+	width:119px;
+	height:41px;
+	float:left;
+}
+
+/**/

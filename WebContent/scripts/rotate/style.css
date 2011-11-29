@@ -1,0 +1,26 @@
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input{margin:0; padding:0;}
+#left-container { margin:0 auto 0 auto;text-align:center;width:180px; padding:5px }
+#area-roatation {padding-top:50px;}
+#area-roatation img { }
+#area-roatation h2 { border-bottom:1px solid #999;margin-bottom:5px;text-align:left; float:left; font-size: 10px;}
+#area-roatation li { list-style:none;  }
+#area-roatation li span { display: block; text-align: left; font-size:12px;width:150;}
+#area-roatation li img { border:0; margin-left: 60px; width:40px; height:40px; float:left; margin-bottom: 10px; }
+#area-roatation li p { width:180px;padding-top:15px }
+#area-roatation .remocon { clear:both;text-align:center }
+#area-roatation .prdImg { width:100px; height:100px }
+#area-roatation strike {color:#cc0000}
+
+hr.clear { background: none;
+    border: 0;
+    clear: both;
+    display: block;
+    float: none;
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}

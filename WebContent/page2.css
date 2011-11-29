@@ -1,0 +1,342 @@
+.page2{ 
+	margin:0;
+	padding:0;	
+	height:550px;
+	background-image:url(images/page1/bg.png);
+	background-repeat:repeat-x;
+    margin-top: 40px;
+}
+form{
+    float: left;
+    display: block;
+    width: 700px;
+    height: 500px;
+}
+.clear_fix{
+    clear:both;
+}	
+.page2 .ohMyGiftButton {
+   width: 200px;
+   position: absolute;
+   top: 0;
+   
+}
+.page2 .ohMyGiftButton img{
+   float: left;
+}
+.center_container{
+    width: 700px;
+    margin: 0 auto;
+    min-width: 400px;
+}
+/*header*/
+.page2 .center_container .header{
+    width: 100%;
+	height:92px;
+    float: left;
+}
+
+
+.page2 .center_container .header .title{
+    width: 500px;
+    height: inherit;
+	float:left;
+}	
+
+.page2 .center_container .header .title .title_img{
+	margin-top: 30px;
+    margin-left: 250px;
+    float: left;
+}
+
+.page2 .center_container .header .title .friend_img{
+    width: 60px;
+    height:60px;
+    float: left;
+}
+
+.page2 .center_container .header .search{
+    width: 200px;
+    height: inherit;
+	float:left;
+}
+
+.page2 .center_container .header .search input{
+    width: 156px;
+    height: 22px;
+    margin-left: 60px;
+    margin-top: 20px;
+    background:url('images/page2/search_form.png') no-repeat;
+    background-position: right;
+
+    border: 0px;
+}
+input{
+    background-color: transparent;
+}
+/*body*/
+.page2 .center_container .body_container{
+    width: inherit;
+	padding: 20px;
+    float: left;
+    clear: both;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.page2 .center_container .body_container .board_container{
+    float: left;
+	width: inherit;
+    height:302px;
+	background:url('./scripts/scroll/images/board.png') no-repeat;
+}	
+
+.page2 .center_container .body_container .board_container .left_container{
+    float: left;
+	width: 200px;
+    margin-top:40px;
+    margin-left:25px;
+}
+.page2 .center_container .body_container .board_container .left_container input{
+    float: left;
+    margin-top: 3px;
+    -moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	width: 100px;
+    height: 25px;
+}
+.page2 .center_container .body_container .board_container .left_container img{
+    float: left;
+}
+.page2 .center_container .body_container .board_container .right_container{
+    float: left;
+	width: 450px;
+    margin-top:40px;
+    margin-left:25px;
+}
+.page2 .center_container .body_container .board_container .right_container .right_top_container{
+    width: 350px;
+    height: 100px;
+}
+.page2 .center_container .body_container .board_container .right_container .right_top_container .clear_btn{
+    float: left;
+    margin-left: 10px;
+}
+.page2 .center_container .body_container .board_container .right_container .right_top_container .name_input{
+    width: 200px;
+    height: 40px;
+    -moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+.page2 .center_container .body_container .board_container .right_container .right_top_container .website_input{
+    width: 180px;
+    height: 30px;
+    -moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+    float: left;
+}
+
+.page2 .center_container .body_container .board_container .right_container .right_bottom_container{
+    margin-top: 30px;
+}
+.page2 .center_container .body_container .board_container .right_container .right_bottom_container .bottom_left_container{
+    width: 200px;
+    display:block;
+    float: left;
+}
+.page2 .center_container .body_container .board_container .right_container .right_bottom_container .bottom_right_container{
+    width: 240px;
+    display:block;
+    float: left;
+}
+
+.page2 .center_container .body_container .board_container .right_container .right_bottom_container .bottom_left_container .price_input{
+    width: 150px;
+    height: 30px;
+    -moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+    float: left;
+}
+.page2 .center_container .body_container .board_container .right_container .right_bottom_container .bottom_right_container .occasion_input{
+    width: 150px;
+    height: 30px;
+    float: left;
+    -moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+.page2 .center_container .body_container .board_container .right_container .right_bottom_container img{
+    margin-left: 5px;
+    float: left;
+}
+
+.page2 .center_container .body_container .board_container .right_container h1{
+    font-size: 10px;
+    color: brown;
+    display:inline;
+    font-family:Arial;
+}
+	
+/*footer*/
+.page2 .center_container .footer{
+    width: inherit;
+	height:200px;
+    float: left;
+}
+
+.page2 .center_container .footer .choose_gift{
+	width:340px;
+	height: inherit;
+	float:left;
+}
+
+.page2 .center_container .footer .choose_gift .gift_pic{
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+	width: 92px;
+	height: 92px;
+	float:left;
+    background: url('./images/page2/example.png') no-repeat;
+}
+
+.page2 .center_container .footer .choose_gift .gift_pic img{
+	width: 80px;
+	height: 80px;
+	padding: 7px;
+}
+.page2 .center_container .footer .choose_gift .gift_text {
+    float: left;
+    width: 190px;
+    height: 20px;
+}
+.page2 .center_container .footer .choose_gift .period_text{
+    float: left;
+    width: 190px;
+    height: 20px;
+}
+.page2 .center_container .footer .choose_gift .period_text h2{
+    font-size: 10px;
+    color: white;
+    float: left;
+}
+.page2 .center_container .footer .choose_gift .gift_text .name_text{
+	margin-top:2px;
+    margin-bottom: 4px;
+    float:left;
+    color: white;
+    font-size: 15px;
+}
+.page2 .center_container .footer .choose_gift .gift_price{
+    float: left;
+    width: 190px;
+    height: 20px;
+}
+.page2 .center_container .footer .choose_gift .gift_price h2{
+    font-size: 10px;
+    color: white;
+    float: left;
+}	
+.page2 .center_container .footer .choose_gift .price_text{
+	margin-top: 5x;
+    margin-left: 3px;
+    margin-bottom: 10px;
+    float:left;
+    font-size: 14px;
+    text-align: left;
+    color: red;
+}
+
+.page2 .center_container .footer .choose_gift .service_text{
+    float: left;
+    height: 20px;
+    width: 150px;
+}
+.page2 .center_container .footer .choose_gift .service_text h2{
+	font-size: 11px;
+    color: red;
+}
+.page2 .center_container .footer .choose_gift .total_price{
+    float: left;
+    width : 150px;
+    height: 20px;
+}
+.page2 .center_container .footer .choose_gift .total_price h2{
+    color : red;
+    font-size: 14px;
+}
+
+.page2 .center_container .footer .button{
+	width: 200px;
+    margin-left: -20px;
+	height: inherit;
+    padding-top: 30px;
+    float: left;
+}
+
+.page2 .center_container .footer .button .button_img{	
+    margin-top: 100px;
+    margin-right: 10px;	
+    cursor: pointer;
+}
+.page2 .center_container .footer .choose_date{
+	width:150px;
+	height:92px;
+	float:right;
+	margin-top:20px;
+	margin-right: 15px;
+}
+
+.page2 .center_container .footer .choose_date .text_img2{
+	margin-top:2px;	
+}
+
+.page2 .center_container .footer .choose_date .datapicker{
+	margin-top:10px;
+	float:left;
+	margin-left: 5px;
+    width: 100px;
+    height: 18px;
+    background: url('images/page2/calendar_form.png') no-repeat;
+    border: 0px;
+}
+
+.page2 .center_container .footer .choose_date .calendar_img{
+	float:left;
+	margin-right: 5px;
+	margin-top: 8px;
+    cursor: pointer;
+}
+.hover_effect{
+    background: url('images/page2/hoverimg.png') top left no-repeat;
+}
+/* Styles specific to this particular page */
+.scroll-pane,
+.scroll-pane-arrows
+{
+	width: 679px;
+	height: 302px;
+	overflow: auto;
+}
+.horizontal-only
+{
+	height: 302px;
+	max-height: 302px;
+}
+#fancybox-wrap {
+  position: absolute;
+  top: 140px !important;
+}
+/*FancyBox Customizing*/
+
+#giftFancybox .fancy_left_container{
+    width: 400px;
+}
+#giftFancybox .fancy_left_container #bigPic{
+    width: 300px;
+    height: 300px;
+}
+
+.page2 #giftFancybox .fancy_right_container{
+    width: 250px;
+}
